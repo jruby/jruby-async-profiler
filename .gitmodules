@@ -1,0 +1,3 @@
+[submodule "ext/async-profiler"]
+	path = ext/async-profiler
+	url = git@github.com:jvm-profiling-tools/async-profiler.git
