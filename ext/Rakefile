@@ -1,0 +1,6 @@
+task :default do
+  Dir.chdir('async-profiler') do
+    system 'make'
+    FileUtils.cp 'build/libasyncProfiler.so', File.join(ENV_JAVA['jruby.home'], 'lib')
+  end
+end
